@@ -1,0 +1,258 @@
+object Form1: TForm1
+  Left = 472
+  Height = 916
+  Top = 57
+  Width = 434
+  Caption = 'Natural'
+  ClientHeight = 916
+  ClientWidth = 434
+  Color = 8421631
+  DesignTimePPI = 120
+  LCLVersion = '4.6.0.0'
+  object Label1: TLabel
+    Left = 128
+    Height = 31
+    Top = 8
+    Width = 185
+    Caption = 'Numero Natural'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -23
+    Font.Name = 'Segoe UI Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object V: TEdit
+    Left = 24
+    Height = 28
+    Top = 40
+    Width = 392
+    TabOrder = 0
+    TextHint = 'Valor...'
+    OnChange = VChange
+  end
+  object D: TEdit
+    Left = 24
+    Height = 28
+    Top = 72
+    Width = 392
+    TabOrder = 1
+    TextHint = 'Digito...'
+  end
+  object P: TEdit
+    Left = 24
+    Height = 28
+    Top = 104
+    Width = 392
+    TabOrder = 2
+    TextHint = 'Posicion...'
+  end
+  object Button1: TButton
+    Left = 24
+    Height = 31
+    Top = 136
+    Width = 392
+    Caption = 'Crear'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 24
+    Height = 31
+    Top = 168
+    Width = 392
+    Caption = 'SETVALOR'
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 24
+    Height = 31
+    Top = 200
+    Width = 392
+    Caption = 'GETVALOR'
+    TabOrder = 5
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 24
+    Height = 31
+    Top = 232
+    Width = 392
+    Caption = 'DIGCANT'
+    TabOrder = 6
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 24
+    Height = 31
+    Top = 264
+    Width = 392
+    Caption = 'DIGSUM'
+    TabOrder = 7
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 24
+    Height = 31
+    Top = 840
+    Width = 392
+    Caption = 'SALIR'
+    TabOrder = 8
+    OnClick = Button8Click
+  end
+  object Button7: TButton
+    Left = 24
+    Height = 31
+    Top = 296
+    Width = 392
+    Caption = 'ELIMINAR'
+    TabOrder = 9
+    OnClick = Button7Click
+  end
+  object Button8: TButton
+    Left = 24
+    Height = 31
+    Top = 328
+    Width = 392
+    Caption = 'PARES'
+    TabOrder = 10
+    OnClick = Button23Click
+  end
+  object Button9: TButton
+    Left = 24
+    Height = 31
+    Top = 360
+    Width = 392
+    Caption = 'IMPARES'
+    TabOrder = 11
+    OnClick = Button9Click
+  end
+  object Button10: TButton
+    Left = 24
+    Height = 31
+    Top = 392
+    Width = 392
+    Caption = 'PRIMOS'
+    TabOrder = 12
+    OnClick = Button10Click
+  end
+  object Button11: TButton
+    Left = 24
+    Height = 31
+    Top = 424
+    Width = 392
+    Caption = 'MAYOR'
+    TabOrder = 13
+    OnClick = Button11Click
+  end
+  object Button12: TButton
+    Left = 24
+    Height = 31
+    Top = 456
+    Width = 392
+    Caption = 'MENOR'
+    TabOrder = 14
+    OnClick = Button12Click
+  end
+  object Button13: TButton
+    Left = 24
+    Height = 31
+    Top = 488
+    Width = 392
+    Caption = 'INV'
+    TabOrder = 15
+    OnClick = Button13Click
+  end
+  object Button14: TButton
+    Left = 24
+    Height = 31
+    Top = 520
+    Width = 392
+    Caption = 'CAPICUA'
+    TabOrder = 16
+    OnClick = Button14Click
+  end
+  object Button15: TButton
+    Left = 24
+    Height = 31
+    Top = 552
+    Width = 392
+    Caption = 'PAR'
+    TabOrder = 17
+    OnClick = Button15Click
+  end
+  object Button16: TButton
+    Left = 24
+    Height = 31
+    Top = 584
+    Width = 392
+    Caption = 'IMPAR'
+    TabOrder = 18
+    OnClick = Button16Click
+  end
+  object Button17: TButton
+    Left = 24
+    Height = 31
+    Top = 616
+    Width = 392
+    Caption = 'PRIMO'
+    TabOrder = 19
+    OnClick = Button17Click
+  end
+  object Button18: TButton
+    Left = 24
+    Height = 31
+    Top = 648
+    Width = 392
+    Caption = 'BINARIO'
+    TabOrder = 20
+    OnClick = Button18Click
+  end
+  object Button19: TButton
+    Left = 24
+    Height = 31
+    Top = 680
+    Width = 392
+    Caption = 'OCTAL'
+    TabOrder = 21
+    OnClick = Button19Click
+  end
+  object Button20: TButton
+    Left = 24
+    Height = 31
+    Top = 712
+    Width = 392
+    Caption = 'HEXADECIMAL'
+    TabOrder = 22
+    OnClick = Button19Click
+  end
+  object Button21: TButton
+    Left = 24
+    Height = 31
+    Top = 744
+    Width = 392
+    Caption = 'BASE N'
+    TabOrder = 23
+    OnClick = Button20Click
+  end
+  object Button22: TButton
+    Left = 24
+    Height = 31
+    Top = 776
+    Width = 392
+    Caption = 'ROMANO'
+    TabOrder = 24
+    OnClick = Button21Click
+  end
+  object Button23: TButton
+    Left = 24
+    Height = 31
+    Top = 808
+    Width = 392
+    Caption = 'LITERAL'
+    TabOrder = 25
+    OnClick = Button22Click
+  end
+end
